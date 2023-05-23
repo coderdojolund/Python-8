@@ -20,6 +20,8 @@ Välkommen till Pythonuppgifter för årskurs 8 🐍 Spelen är översatta från
 [Hur får jag mer plats på skärmen?](https://github.com/coderdojolund/Python-8/edit/main/README.md#hur-f%C3%A5r-jag-ett-st%C3%B6rre-spelf%C3%B6nster)
 &bull;
 [Hur ändrar jag storleken på en Actor?](https://github.com/coderdojolund/Python-8/blob/main/Pygame-Zero-Helper/intro.md)
+&bull;
+[Hur kan jag spara highscore i en fil?](https://replit.com/@RobertStorlind/highscore-exempel#main.py)
 
 
 ### Gradering
