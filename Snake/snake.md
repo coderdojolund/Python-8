@@ -52,22 +52,29 @@ Spelet är över när ormen slingrar in i sig själv.
 **Piltangenter**	Byt riktning
 
 # Översikt
-Ormen representeras av en sekvens av X- och Y-koordinater.
+Ormen är en variabel som har en lista av X- och Y-koordinater.
 
 Maten representeras av en X- och Y-koordinat.
 
-När ormen rör sig, tas det sista elementet i sekvensen, alltså den gamla svanspositionen, bort.
-Ett nytt element läggs till först i sekvensen. Det är den nya positionen för huvudet i den riktning som ormen ringlar.
+Ormen rör sig i två steg:
+1. Vi tar bort det sista elementet i listan &ndash; det är den gamla svanspositionen.
+2. Sen lägger vi till ett nytt element först i listan. Det är den nya positionen för huvudet i den riktning som ormen ringlar.
 
+Så här kan det se ut Pygames koordinatsystem. Y-axeln är upp och ner jämfört med vanliga koordinataxlar. Det är vanligt i datorgrafik. [Scratch](https://scratch.mit.edu) är ett undantag.
+<br>
+<img src="https://github.com/user-attachments/assets/a771cf43-c8a9-4f59-82ae-16955d1fbd44" width="50%">
+
+Jämför med hur det ser ut i koden. Verkar det stämma?<br>
 ![image](https://user-images.githubusercontent.com/4598641/226439258-020b4582-5409-448b-99e6-55cf6a4bbcdc.png)
 
 ![image](https://user-images.githubusercontent.com/4598641/226439284-599e5e4f-6987-4eea-8b79-f39d5a2d850a.png)
 
-Om den nya huvudpositionen är i samma position som matens position tas inte ormens svans bort och maten flyttas till en slumpmässig position som inte upptas av ormen.
+När ormen når maten är huvudpositionen samma som matens position.
+Då rör vi inte svansen utan flyttar maten till en slumpmässig ruta där ormen inte är.
 
 ![image](https://user-images.githubusercontent.com/4598641/226439323-b54bc813-62f2-49d5-ac3b-1002ba0de713.png)
 
-Om den nya huvudpositionen är i samma position som någon av ormens andra segment, är spelet över.
+Ormen har krockat med sig själv om den nya huvudpositionen är samma som något av ormens andra segment. Då är spelet över.
 
 # Kodning
 ## Rita bakgrunden
