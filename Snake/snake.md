@@ -70,7 +70,7 @@ Jämför med hur det ser ut i koden. Verkar det stämma?<br>
 ![image](https://user-images.githubusercontent.com/4598641/226439284-599e5e4f-6987-4eea-8b79-f39d5a2d850a.png)
 
 När ormen når maten är huvudpositionen samma som matens position.
-Då rör vi inte svansen utan flyttar maten till en slumpmässig ruta där ormen inte är.
+Då rör vi inte svansen utan flyttar maten till en slumpmässig ruta där ormen inte är. Ormen har alltså blivit en ruta längre av maten.
 
 ![image](https://user-images.githubusercontent.com/4598641/226439323-b54bc813-62f2-49d5-ac3b-1002ba0de713.png)
 
